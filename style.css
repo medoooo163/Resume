@@ -23,6 +23,21 @@ header h1, header h2, .custom-text {
     -1px 1px 0 rgba(0, 0, 0, 0.7);  /* Left bottom */
   margin: 0;
 }
+header .custom-text1 {
+  color: white; /* Change text color to white for better visibility */
+  text-shadow: 
+    1px 1px 0 rgba(0, 0, 0, 0.7),   /* Right bottom */
+    -1px -1px 0 rgba(0, 0, 0, 0.7), /* Left top */
+    1px -1px 0 rgba(0, 0, 0, 0.7),  /* Right top */
+    -1px 1px 0 rgba(0, 0, 0, 0.7);  /* Left bottom */
+    padding: 0;
+    border: 2px solid white; /* White border */
+
+    border-radius: 8px; /* Optional: rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: slight background color for contrast */
+
+  margin: 0;
+}
 nav ul {
   list-style: none;
   background: #333;
